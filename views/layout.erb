@@ -1,9 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,300,400italic,600italic,600,300italic' rel='stylesheet' type='text/css'
+    >
+    <style>
+
+    ul {
+      list-style-type: none;
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight:300;
+      color:#43a7de;
+    }
+
+
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      font-weight:600;
+      color:#43a7de;
+    }
+
+    p {
+      font-family: 'Raleway', sans-serif;
+      font-weight:400;
+      color:grey;
+    }
+
+
+    a:link, a:visited {
+      text-decoration:none;
+      background: none;
+      color: #43a7de;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+    }
+
+    a:hover {
+    	color:grey;
+    }
+
+    .b1{
+	     margin:2% auto 5% auto;
+	     border-style:solid;
+	     border-width:thin;
+	     border-top-color:#43a7de;
+	     border-right:none;
+	     border-bottom:none;
+	     border-left:none;
+     }
+
+     form {
+       text-decoration:none;
+       background: none;
+       color: grey;
+       font-family: 'Raleway', sans-serif;
+       font-weight: 300;
+     }
+
+     input {
+       text-decoration:none;
+       background: none;
+       color: #43a7de;
+       font-family: 'Raleway', sans-serif;
+       font-weight: 300;
+     }
+
+
+
+    </style>
     <title>Bug Tracker</title>
   </head>
+  <div class = "b1" </div>
   <body>
     <%= yield %>
+    <div class = "b1" </div>
+
   </body>
 </html>
